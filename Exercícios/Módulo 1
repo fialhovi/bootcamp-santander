@@ -86,3 +86,11 @@ if ponto_suspeito == 1 or ponto_suspeito == 0:
     
     
 QUESTÃO 4
+#Faça um programa que imprima a tabuada do 9 (de 9*1 a 9*10) usando loops.
+
+
+contador = 0
+while contador <= 9:
+    contador = contador + 1
+    print('9 *', contador, '= ', 9 * contador)
+print('Fim da tabuada do 9')
