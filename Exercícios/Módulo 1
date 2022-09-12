@@ -1,3 +1,4 @@
+QUESTÃO 1
 #Faça um programa que peça um valor monetário e diminua-o em 15%. 
 #Seu programa deve imprimir a mensagem "O novo valor é [valor]".
 
@@ -7,3 +8,28 @@ print ("O novo valor é ", valor * 0.85)
 
 
 
+
+QUESTÃO 2
+#Faça um programa que leia a validade das informações:
+#a. Idade: entre 0 e 150;
+#b. Salário: maior que 0;
+#c. Sexo: M, F ou Outro;
+#O programa deve imprimir uma mensagem de erro para cada informação inválida.
+
+idade = int(input('Qual é a sua idade?'))
+if int(idade) < 0 or int(idade) > 150:
+    print('Campo Idade preenchido incorretamente.')
+
+salario = float(input('Qual é o seu salário'))
+if float(salario) < 0:
+    print('Campo Salário preenchido incorretamente.')
+
+sexo = str(input('Qual o seu sexo (M, F, Outro)?'))
+if str(sexo) != 'M' or str(sexo) != 'F' or str(sexo) != 'Outro':
+    print('Campo Sexo preenchido incorretamente.')
+    
+    
+    
+
+
+QUESTÃO 3
