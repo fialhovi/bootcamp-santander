@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Estrutura de repetição while:
 contador = 0
 
@@ -15,9 +9,6 @@ while contador < 10:
         print(contador, "Itens limpos")
 
 print("Fim da repetição do bloco while")
-
-
-# In[2]:
 
 
 # while True ou seja laço infinito com parada forçada break:
@@ -35,9 +26,6 @@ while True:
 print("Fim da repetição do bloco while")
 
 
-# In[3]:
-
-
 # Loop com validação:
 texto = input('Digite a sua senha: ')
 
@@ -45,9 +33,6 @@ while texto != 'LetsCode':
     texto = input('Senha inválida. Tente novamente: ')
     
 print('Acesso permitido')
-
-
-# In[4]:
 
 
 # Utilizando a palavra reservada continue:
@@ -60,10 +45,3 @@ while contador < 10:
     print(contador, "Itens limpos")
 
 print("Fim da repetição do bloco while")
-
-
-# In[ ]:
-
-
-
-
