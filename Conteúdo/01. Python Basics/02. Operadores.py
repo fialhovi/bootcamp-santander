@@ -2,6 +2,7 @@
 x = 50
 y = 2
 
+# Operadores Aritméticos:
 # Somando:
 print(f'Somando: x + y = {x + y}')
 print()
