@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # API: Application Programming Interface
 # Hoje em dia, é muito comum que diferentes aplicações consumam dados pela internet, muitas vezes dados providenciados por terceiros.
 # Por exemplo, um aplicativo de entrega de alimentos pode usar dados de geolocalização do Google para localizar restaurantes próximos ao usuário e exibir a
@@ -23,16 +17,8 @@
 #Usar o pip (instalador de resquests do Python) para instalar a biblioteca:
 get_ipython().system('pip install requests')
 
-
-# In[2]:
-
-
 #importar a biblioteca agora:
 import requests
-
-
-# In[3]:
-
 
 #agora, definir a url que vamos fazer a chamada (nesse caso, vamos utilizar a chamada get):
 url = 'https://api.exchangerate-api.com/v6/latest'
@@ -41,18 +27,10 @@ req = requests.get(url)
 #é importante ver o status da url, porque pode dar o erro de não encontrado. Se retornar 200, está ok.
 print(req.status_code)
 
-
-# In[4]:
-
-
 # agora, vamos recuperar os dados da requisição
 # Recuperando os dados da requisição: o json() retorna um dicionário.
 dados = req.json()
 print(dados)
-
-
-# In[5]:
-
 
 #no valor que retorna, vemos 'base code', que indica a moeda padrão utilizada, no caso, usd, dólar americano.
 #aqui, o que queremos é saber um valor em reais sendo convertido para dólar:
@@ -60,10 +38,6 @@ valor_reais = float(input('Informe o valor em R$ a ser convertido\n'))
 #dados na posição rates com a chave BRL.
 cotacao = dados['rates']['BRL']
 print(f'R${valor_reais} em dólar valem US$ {(valor_reais / cotacao):.2f}')
-
-
-# In[6]:
-
 
 # Consumindo APIs em Python
 # As APIs são meios de nos conectarmos a recursos na internet. Portanto, já possuímos as ferramentas na mão desde os capítulos anteriores.
@@ -89,10 +63,3 @@ print(f'R${valor_reais} em dólar valem US$ {(valor_reais / cotacao):.2f}')
 # http://www.dados.gov.br/
 #
 # https://brasil.io/home/
-
-
-# In[ ]:
-
-
-
-
