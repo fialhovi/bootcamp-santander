@@ -37,3 +37,15 @@ for index in range(len(palavra)):
 #Exemplo: Se a função receber as listas [1,4,3] e [3,5,1], então a função deve retornar [1+3, 4+5, 3+1] = [4, 9, 4].
 
 
+def soma_lista(lista1, lista2):
+    soma = [x + y for x, y in zip(lista1, lista2)]
+    return soma
+    
+soma_lista([1,4,3], [3,5,1])
+
+
+
+
+
+#QUESTÃO 4
+#
