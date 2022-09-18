@@ -1,14 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
+#QUESTÃO 1
+#Faça um programa que olhe todos os itens de uma lista e diga quantos deles
+#são pares.
 
 
 numeros = [0,1,2,3,45,46,47,52,68,236,241,528]
 print(numeros)
-
-
-# In[3]:
 
 
 pares = []
@@ -19,7 +15,7 @@ for valor in numeros:
 print(len(pares))
 
 
-# In[ ]:
+
 
 
 
