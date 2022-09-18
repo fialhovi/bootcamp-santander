@@ -1,3 +1,4 @@
+#QUESTÃO 1
 #Faça um programa que peça um valor monetário e diminua-o em 15%. 
 #Seu programa deve imprimir a mensagem "O novo valor é [valor]".
 
@@ -6,9 +7,10 @@ valor = float(input('Informe o valor monetário:'))
 print ("O novo valor é ", valor * 0.85)
 
 
-# In[2]:
 
 
+
+#QUESTÃO 2
 #Faça um programa que leia a validade das informações:
 #a. Idade: entre 0 e 150;
 #b. Salário: maior que 0;
@@ -29,9 +31,10 @@ if str(sexo) != 'M' or str(sexo) != 'F' or str(sexo) != 'Outro':
     print('Campo Sexo preenchido incorretamente.')
 
 
-# In[3]:
 
 
+
+#QUESTÃO 3
 #Vamos fazer um programa para verificar quem é o assassino de um crime.
 #Para descobrir o assassino, a polícia faz um pequeno questionário com 5 perguntas onde a resposta só pode ser sim ou não:
     
@@ -79,9 +82,9 @@ if ponto_suspeito == 1 or ponto_suspeito == 0:
     print('Liberado')
 
 
-# In[4]:
 
 
+#QUESTÃO 4
 #Faça um programa que imprima a tabuada do 9 (de 9*1 a 9*10) usando loops.
 
 
@@ -90,10 +93,3 @@ while contador <= 9:
     contador = contador + 1
     print('9 *', contador, '= ', 9 * contador)
 print('Fim da tabuada do 9')
-
-
-# In[ ]:
-
-
-
-
