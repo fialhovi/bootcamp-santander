@@ -18,5 +18,22 @@ print(len(pares))
 
 
 
+#QUESTÃO 2
+#Faça um programa que peça para o usuário digitar uma palavra e imprima
+#cada letra em uma linha.
+
+
+palavra = str(input('Digite uma palavra:\n'))
+
+for index in range(len(palavra)):
+    print(palavra[index])
+    
+
+    
+    
+    
+#QUESTÃO 3
+#Faça uma função que recebe duas listas e retorna a soma item a item dessas listas.
+#Exemplo: Se a função receber as listas [1,4,3] e [3,5,1], então a função deve retornar [1+3, 4+5, 3+1] = [4, 9, 4].
 
 
