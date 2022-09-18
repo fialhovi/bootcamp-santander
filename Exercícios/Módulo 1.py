@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 #Faça um programa que peça um valor monetário e diminua-o em 15%. 
 #Seu programa deve imprimir a mensagem "O novo valor é [valor]".
 
