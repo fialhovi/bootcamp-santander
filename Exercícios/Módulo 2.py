@@ -48,4 +48,4 @@ soma_lista([1,4,3], [3,5,1])
 
 
 #QUESTÃO 4
-#
+#Crie um dicionário cujas chaves são os meses do ano e os valores são a duração (em dias) de cada mês.
