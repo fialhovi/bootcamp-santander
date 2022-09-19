@@ -74,3 +74,4 @@ meses_ano = {
 #Imprima as chaves seguidas dos seus valores para dicionário criado no exercício anterior.
 
 
+print(meses_ano)
