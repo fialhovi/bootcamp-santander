@@ -1,2 +1,2 @@
 # bootcamp-santander-python
-Python exercises and Covid project
+Covid project and python exercises (basic to intermediate)
